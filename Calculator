@@ -1,0 +1,16 @@
+print("Which operation do you want?")
+operator = input("Enter either +, -, / or *: ")
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+if operator == "+":
+    print(num1, operator, num2, "=", num1 + num2)
+elif operator == "-":
+    print(num1, operator, num2, "=", num1 - num2)
+elif operator == "/":
+    print(num1, operator, num2, "=", num1 / num2)
+elif operator == "*":
+    print(num1, operator, num2, "=", num1 * num2)
+else:
+    print("Invalid operator")
